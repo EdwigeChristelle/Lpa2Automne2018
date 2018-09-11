@@ -1,5 +1,5 @@
-
-git add .
-git commit -m "message de commit"
-git push origin master
+language: ruby
+rvm:
+ - 2.2
+ - jruby
 
