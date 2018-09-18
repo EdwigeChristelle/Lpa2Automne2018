@@ -4,7 +4,7 @@ rvm:
 deploy:
   provider: heroku
   api_key:
-    secure: R8oynBTGe+VjOTg9usrXZtpC+U9fzwn9t3s5wGx49rNFMqVoZJj68Fo66FmTpsjXU0eL1RTmYk/SUIGrrRFn85bBmVpHYPa/TZzXlOmG2zLzxiNlUggiliMzVu0yO24O3iVjZgC7L6Xhn46p1au2kA3llPda7GNtYgF4rnVYqPkKu/Lqp/plJSRrLaEatlipLLjhsNvG4cmXH7vejbBi/n52jZ9NTLSEs8xT0/hjx+2WRjB+tPhs5mvPaCeqyfj2Q/c4nrw/gc5NMX5PBFecUb++Oe3TPPXzKWJB0WFdzyeTNrHrJvU56rDnckTd6J5lgFZSPHt5PMZ9ihbSba5CIvylS8uklnqEKb/YpcT5sDGtEZ492Bfu12ZhzK2gF8NWIJ/R/pAKHFRCMUQRGlIKjGcUd+Huo3mvEm6547Mdh/dY/DY/IC5Ctzq1fe24u3lZoJlI4HO6g+aVaJObPfrqsaUe/TjItbb6cMdrVVTxAqlioZoPNPRhVJuorDu3lJ49f45Qg6lVd9f/7aDcgx32+zaBX/zuK18cPS/8t6iss2CTzocl82Kwb/zOcPgnL+KnCxYAtalzoKnu1psxAT5nuR8EfE3gpTbcB24GlzBZ6D2sdtdswGaW7T4znRD+AZPgQOZ3RFNH3uPcVx1YyrVRMinIh1rfiitanKaBd3O87eI=
+    secure: bdfacc00-90b1-4a60-8e6d-a09f6f87f866
   app: Lpa2Automne2018
   on:
     repo: EdwigeChristelle/Lpa2Automne2018
