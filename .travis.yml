@@ -9,6 +9,3 @@ deploy:
   on:
     repo: EdwigeChristelle/Lpa2Automne2018
 
-  app: Lpa2Automne2018
-  on:
-    repo: EdwigeChristelle/Lpa2Automne2018
