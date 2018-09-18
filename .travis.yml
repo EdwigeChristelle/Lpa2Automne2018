@@ -3,8 +3,7 @@ rvm:
 - 2.4.4
 deploy:
   provider: heroku
-  api_key:
-    secure: bdfacc00-90b1-4a60-8e6d-a09f6f87f866
+  api_key: bdfacc00-90b1-4a60-8e6d-a09f6f87f866
   app: Lpa2Automne2018
   on:
     repo: EdwigeChristelle/Lpa2Automne2018
