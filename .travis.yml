@@ -1,0 +1,10 @@
+language: ruby
+rvm:
+- 2.4.4
+deploy:
+  provider: heroku
+  api_key:
+    secure: X1NXLD9RD+at4/xEmg0itwc0+PHnomb5wORv2KoLw/ijC0Yyd9W8nqOcT62fjiP0v7ucEBUdKqZXLFQ5FtHH5o8bJnEje54n7XPTvw1osMJpA9gourSmJ7HqFiX0ly5IfDc+3SNJKIsTmMG0wQ2/Y0PT+d3jf8tqgvy7UrHcITDjhejby6evKt9+XbT0WCh1cNIYkYKxTt9/gbwqkFIViZIQr12oyJCPMWnOuvtN6Ohkidz5iSq2PCCi5lkm3ydN0NBvu2nhc0yMpUMvfLHg7aCI6BSUay3m3T4wBfA6VUPLvYCGtCRNz51gbwVA3hgz6Eu0pUUugDqAYWGColVmP7KlfHgWD9KPdmPD3XtDZjk8ZIIegrLrAxqbxx/oJIhvaYTd9ckemGrkSiXz/Qe37QEz+FQDVPXYiKBzePrl7rnzUBOYNmig9NKUzoGYQ/ZGrcugGwPxfQxkrwOfO882xj/LHVR0SMgxJnKeZowB+TuqCN5+f2S9UFprFlj6L9RsKhnkyusx4B4gBjzSMyVSr6DKLLx3TuHY94V+IhFco+BvukIMsR4FL2RklFit/VhRwRGEGmNtms1CioWbHQQ7hVqcekEHVPYEqeD8aEy4X+E0+cr5F9ykUCzAFcDXOnMZ1hf3UPwXHwDLQA6NYam1CL7Eus5Y4rLgvDC91S0hWVI=
+  app: Lpa2Automne2018
+  on:
+    repo: EdwigeChristelle/Lpa2Automne2018
