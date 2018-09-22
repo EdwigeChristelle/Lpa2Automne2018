@@ -14,5 +14,7 @@ deploy:
   app: gestionpizza
   on:
     repo: EdwigeChristelle/Lpa2Automne2018
+  run: "rails db:migrate"
     after_script:
-  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT                          
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT    
+  
