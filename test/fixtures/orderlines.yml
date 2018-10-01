@@ -2,8 +2,8 @@
 
 one:
   order: one
-  pizzas: one
+  pizza: one
 
 two:
   order: two
-  pizzas: two
+  pizza: two
