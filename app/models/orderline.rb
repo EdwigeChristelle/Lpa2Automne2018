@@ -1,4 +1,4 @@
 class Orderline < ApplicationRecord
   belongs_to :order
-  belongs_to :pizzas
+  belongs_to :pizza
 end

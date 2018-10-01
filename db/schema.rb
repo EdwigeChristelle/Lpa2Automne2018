@@ -14,11 +14,11 @@ ActiveRecord::Schema.define(version: 2018_09_25_100259) do
 
   create_table "orderlines", force: :cascade do |t|
     t.integer "order_id"
-    t.integer "pizzas_id"
+    t.integer "pizza_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["order_id"], name: "index_orderlines_on_order_id"
-    t.index ["pizzas_id"], name: "index_orderlines_on_pizzas_id"
+    t.index ["pizza_id"], name: "index_orderlines_on_pizza_id"
   end
 
   create_table "orders", force: :cascade do |t|

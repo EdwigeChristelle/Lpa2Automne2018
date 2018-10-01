@@ -21,7 +21,7 @@ class OrdersController < ApplicationController
 	p @orderPizza
 	newOrderline = Orderline.new
 	newOrderline.order=newOrder
-	newOrderline.pizzas=@orderPizza
+	newOrderline.pizza=@orderPizza
 	newOrderline.save
     end
     @erros = @erros + "]"
